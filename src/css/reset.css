@@ -1,0 +1,14 @@
+/* Basic CSS Reset for Consistent Styling Across Browsers */
+* {
+  margin: 0; /* Removes default margin on all elements */
+  padding: 0; /* Removes default padding on all elements */
+  border: 0; /* Sets border to 0 for a clean start */
+  font-size: 100%; /* Sets font size to default, typically 16px */
+  font: inherit; /* Inherits font properties from parent element */
+  vertical-align: baseline; /* Aligns elements (inline-block, inline-flex, etc.) along a baseline for consistency */
+  box-sizing: border-box; /* Ensures padding and border are included in the element’s total width and height */
+}
+
+ul {
+  list-style: none; /* Removes default bullet points or numbering from lists */
+}
