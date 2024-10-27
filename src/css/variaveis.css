@@ -1,25 +1,25 @@
 :root {
-    /* Primary, medium, and light shades of red */
-    --cor-vermelha-principal: #D60223; /* Main red color, likely used for key elements for Player 2 */
-    --cor-vermelha-media: #f89284; /* Medium red, for less emphasized elements */
-    --cor-vermelha-fraca: #ffbebe; /* Light red, used as a soft accent */
+  /* Primary, medium, and light shades of red */
+  --cor-vermelha-principal: #d60223; /* Main red color, likely used for key elements for Player 2 */
+  --cor-vermelha-media: #f89284; /* Medium red, for less emphasized elements */
+  --cor-vermelha-fraca: #ffbebe; /* Light red, used as a soft accent */
 
-    /* Light brown, potentially for subtle accents */
-    --cor-marrom-fraco: #ebd5d2;
+  /* Light brown, potentially for subtle accents */
+  --cor-marrom-fraco: #ebd5d2;
 
-    /* Primary, medium, and light shades of blue */
-    --cor-azul-principal: #0271F7; /* Main blue color, likely used for key elements for Player 1 */
-    --cor-azul-media: #d3ffff; /* Medium blue, for subtle accents */
-    --cor-azul-fraca: #8fbff8; /* Light blue, for soft highlights */
+  /* Primary, medium, and light shades of blue */
+  --cor-azul-principal: #0271f7; /* Main blue color, likely used for key elements for Player 1 */
+  --cor-azul-media: #d3ffff; /* Medium blue, for subtle accents */
+  --cor-azul-fraca: #8fbff8; /* Light blue, for soft highlights */
 
-    /* Light purple, possibly used as a secondary accent */
-    --cor-roxa-fraca: #c2c2f1;
+  /* Light purple, possibly used as a secondary accent */
+  --cor-roxa-fraca: #c2c2f1;
 
-    /* Colors for title text */
-    --cor-titulo-fraco: #faefd8; /* Soft color for title background or shadow */
-    --cor-titulo-forte: #f77a2c; /* Strong orange color for title outlines */
+  /* Colors for title text */
+  --cor-titulo-fraco: #faefd8; /* Soft color for title background or shadow */
+  --cor-titulo-forte: #f77a2c; /* Strong orange color for title outlines */
 
-    /* Standard and secondary colors */
-    --cor-padrao: #ffffff; /* White, base color for text and backgrounds */
-    --cor-secundaria: #000000; /* Black, base color for backgrounds */
+  /* Standard and secondary colors */
+  --cor-padrao: #ffffff; /* White, base color for text and backgrounds */
+  --cor-secundaria: #000000; /* Black, base color for backgrounds */
 }

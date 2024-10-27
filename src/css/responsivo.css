@@ -1,46 +1,46 @@
 /* Adjust layout for medium screens, such as tablets and smaller laptops */
 @media (max-width: 1280px) {
-    .cabecalho .titulo {
-        font-size: 40px; /* Scales down header font size to fit smaller screens */
-    }
+  .cabecalho .titulo {
+    font-size: 40px; /* Scales down header font size to fit smaller screens */
+  }
 
-    .selecao-de-personagens .lista-de-personagens {
-        max-width: 330px; /* Reduces maximum width of character list to improve spacing on smaller screens */
-    }
-    
-    .selecao-de-personagens .lista-de-personagens .personagem {
-        width: 100px;
-        height: 100px; /* Reduces character card size for better layout and spacing */
-    }
+  .selecao-de-personagens .lista-de-personagens {
+    max-width: 330px; /* Reduces maximum width of character list to improve spacing on smaller screens */
+  }
+
+  .selecao-de-personagens .lista-de-personagens .personagem {
+    width: 100px;
+    height: 100px; /* Reduces character card size for better layout and spacing */
+  }
 }
 
 /* Adjust layout for small screens, like mobile devices */
 @media (max-width: 767px) {
-    body::before {
-        background-image: url("../imagens/bg-mobile.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        opacity: 1; /* Uses a different background image optimized for mobile, with full opacity */
-    }
+  body::before {
+    background-image: url("../imagens/bg-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 1; /* Uses a different background image optimized for mobile, with full opacity */
+  }
 
-    main {
-        padding: 0 5px; /* Adds padding to prevent content from touching screen edges */
-        justify-content: start; /* Aligns main content to the top on small screens */
-    }
+  main {
+    padding: 0 5px; /* Adds padding to prevent content from touching screen edges */
+    justify-content: start; /* Aligns main content to the top on small screens */
+  }
 
-    .cabecalho .titulo {
-        font-size: 22px; /* Further reduces font size for better readability on mobile */
-    }
+  .cabecalho .titulo {
+    font-size: 22px; /* Further reduces font size for better readability on mobile */
+  }
 
-    .selecao-de-personagens .personagem-grande {
-        display: none; /* Hides larger character display, focusing on smaller UI elements on mobile */
-    }
+  .selecao-de-personagens .personagem-grande {
+    display: none; /* Hides larger character display, focusing on smaller UI elements on mobile */
+  }
 }
 
 /* Further adjustments for extra-small screens, like very compact mobile devices */
 @media (max-width: 360px) {
-    .cabecalho .titulo {
-        font-size: 19px; /* Smallest font size for readability on very small screens */
-    }
+  .cabecalho .titulo {
+    font-size: 19px; /* Smallest font size for readability on very small screens */
+  }
 }
