@@ -1,6 +1,7 @@
 # Character Selection Interface
 
 This project is a responsive and interactive character selection interface developed with HTML, CSS, and JavaScript. The interface allows players to dynamically choose characters, with animated effects, background visuals, and adjustments for mobile devices.
+This project was inspired by the YouTube channel **DEV EM DOBRO**.
 
 ## 📋 Features
 
